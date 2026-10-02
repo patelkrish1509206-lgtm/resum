@@ -1,0 +1,281 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume - Web Developer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f2f4f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
+
+        /* Header */
+        header {
+            background: #1f4e79;
+            color: white;
+            padding: 35px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        header h2 {
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        header p {
+            margin-top: 10px;
+        }
+
+        /* Main */
+        .content {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        section h2 {
+            color: #1f4e79;
+            border-bottom: 2px solid #1f4e79;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* About */
+        .about p {
+            text-align: justify;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #1f4e79;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        /* Education / Experience */
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item h3 {
+            color: #333;
+        }
+
+        .item span {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Projects */
+        .project {
+            background: #f5f7fa;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-left: 5px solid #1f4e79;
+        }
+
+        .project h3 {
+            color: #1f4e79;
+        }
+
+        /* Contact */
+        .contact p {
+            margin: 5px 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+        <h1>Krish Patel</h1>
+        <h2>Web Developer</h2>
+        <p>HTML | CSS | JavaScript | Python | Java</p>
+    </header>
+
+    <div class="content">
+
+        <!-- About Me -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate and motivated Web Developer with an interest
+                in creating modern, responsive and user-friendly websites.
+                I enjoy learning new technologies and developing creative
+                web applications.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> krish@example.com</p>
+            <p><strong>Phone:</strong> +91 8799110338</p>
+            <p><strong>Location:</strong> mahesana, Gujarat, India</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/krishpatel</p>
+            <p><strong>GitHub:</strong> github.com/krishpatel</p>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+                <div class="skill">Java</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">Git & GitHub</div>
+                <div class="skill">Responsive Design</div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+
+            <div class="item">
+                <h3>Bachelor of Computer Engineering</h3>
+                <span>UVPCE | 2023 - 2027</span>
+                <p>Studying computer engineering with a focus on software and web development.</p>
+            </div>
+
+            <div class="item">
+                <h3>Higher Secondary Education</h3>
+                <span>Gujarat Board</span>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+
+            <div class="item">
+                <h3>Web Development Intern</h3>
+                <span>ABC Technologies | 2026</span>
+                <p>
+                    Developed responsive web pages using HTML, CSS and JavaScript.
+                    Worked on website design and basic frontend functionality.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>CitiMart E-Commerce Website</h3>
+                <p>
+                    Developed an e-commerce website for displaying products,
+                    managing product information and providing a user-friendly
+                    shopping interface.
+                </p>
+                <strong>Technologies:</strong> HTML, CSS, JavaScript
+            </div>
+
+            <div class="project">
+                <h3>Attendance Management System</h3>
+                <p>
+                    Created a web-based attendance system for managing student
+                    attendance records.
+                </p>
+                <strong>Technologies:</strong> HTML, CSS, JavaScript, Python, MySQL
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section>
+            <h2>Certifications</h2>
+
+            <ul>
+                <li>Web Development Fundamentals</li>
+                <li>Python Programming</li>
+                <li>Java Programming</li>
+            </ul>
+        </section>
+
+        <!-- Career Objective -->
+        <section>
+            <h2>Career Objective</h2>
+
+            <p>
+                To obtain a challenging position in the field of web development
+                where I can use my programming skills, learn new technologies
+                and contribute to the growth of an organization.
+            </p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Krish Patel | Web Developer</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
+```
